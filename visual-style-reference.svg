@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="leftSky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#414a4d"/><stop offset="1" stop-color="#20282a"/>
+    </linearGradient>
+    <linearGradient id="rightSky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#284554"/><stop offset="1" stop-color="#112b39"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity=".05"/></pattern>
+  </defs>
+  <rect width="1600" height="900" fill="#151b1e"/>
+  <text x="70" y="62" fill="#f0eee8" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="32" font-weight="700">《最后一公里》画风方向参考板</text>
+  <text x="70" y="100" fill="#aab3b1" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="18">同一场景：救援车在建筑外建立接近点，玩家下车进入受损转运站</text>
+
+  <rect x="60" y="140" width="720" height="560" rx="18" fill="url(#leftSky)"/>
+  <rect x="60" y="140" width="720" height="560" rx="18" fill="url(#grid)"/>
+  <text x="94" y="188" fill="#e8e5d9" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="26" font-weight="700">A 低饱和半写实</text>
+  <text x="94" y="220" fill="#b5bfbc" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="16">可信材质、灾后工业重量感、克制的颜色</text>
+  <path d="M80 540 C210 480 280 575 390 520 S600 490 760 550 V680 H80Z" fill="#2a4448"/>
+  <path d="M82 570 C220 510 285 600 400 545 S610 515 760 575" fill="none" stroke="#607476" stroke-width="5" opacity=".7"/>
+  <polygon points="430,285 660,250 700,430 475,468" fill="#565b58" stroke="#858b84" stroke-width="4"/>
+  <polygon points="475,468 700,430 700,500 475,540" fill="#383d3c"/>
+  <path d="M500 335h60v60h-60zM590 320h65v60h-65z" fill="#1e292a" stroke="#9baba6" stroke-width="3"/>
+  <path d="M515 400h160" stroke="#bb6f4b" stroke-width="9" opacity=".8"/>
+  <g transform="translate(200 365) rotate(-12)">
+    <path d="M0 75 L30 25 L150 10 L232 50 L250 110 L212 132 L32 132 L0 108Z" fill="#7b7770" stroke="#d0c9bb" stroke-width="5"/>
+    <path d="M38 30 L145 18 L183 48 L48 53Z" fill="#31393a" stroke="#9ca7a0" stroke-width="3"/>
+    <rect x="78" y="64" width="88" height="28" rx="8" fill="#a76b52"/>
+    <circle cx="52" cy="135" r="21" fill="#1b2021" stroke="#a8aaa1" stroke-width="5"/><circle cx="202" cy="125" r="21" fill="#1b2021" stroke="#a8aaa1" stroke-width="5"/>
+    <path d="M18 79 L-20 55" stroke="#d2c3a4" stroke-width="6"/><circle cx="-27" cy="51" r="9" fill="#c1b79e"/>
+  </g>
+  <circle cx="375" cy="465" r="14" fill="#80b5b0"/><path d="M375 485v37m-20-17h40m-13 17-15 29m15-29 18 29" stroke="#80b5b0" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="375" cy="465" r="34" fill="none" stroke="#80b5b0" stroke-opacity=".45" stroke-width="3"/>
+  <text x="110" y="655" fill="#b4c3c0" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="16">优势：紧张、沉重、真实损伤</text>
+  <text x="110" y="680" fill="#a0aaa8" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="15">风险：远景轮廓和目标识别需要额外高亮</text>
+
+  <rect x="820" y="140" width="720" height="560" rx="18" fill="url(#rightSky)"/>
+  <rect x="820" y="140" width="720" height="560" rx="18" fill="url(#grid)"/>
+  <text x="854" y="188" fill="#f3f4ed" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="26" font-weight="700">B 高可读风格化</text>
+  <text x="854" y="220" fill="#a7c7cc" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="16">夸张轮廓、颜色分组、清楚的战斗与救援反馈</text>
+  <path d="M840 540 C960 480 1050 575 1160 520 S1370 490 1520 550 V680 H840Z" fill="#1b6676"/>
+  <path d="M842 570 C980 510 1050 600 1165 545 S1380 515 1520 575" fill="none" stroke="#63bfd0" stroke-width="6" opacity=".85"/>
+  <polygon points="1190,285 1418,250 1458,430 1235,468" fill="#516573" stroke="#b3d1d1" stroke-width="5"/>
+  <polygon points="1235,468 1458,430 1458,500 1235,540" fill="#2b3d4a"/>
+  <path d="M1260 335h60v60h-60zM1350 320h65v60h-65z" fill="#13242e" stroke="#75d4dc" stroke-width="5"/>
+  <path d="M1270 400h160" stroke="#ef805e" stroke-width="12"/>
+  <g transform="translate(950 365) rotate(-12)">
+    <path d="M0 75 L30 25 L150 10 L232 50 L250 110 L212 132 L32 132 L0 108Z" fill="#d47d5b" stroke="#ffe3a5" stroke-width="6"/>
+    <path d="M38 30 L145 18 L183 48 L48 53Z" fill="#193441" stroke="#86e6e7" stroke-width="4"/>
+    <rect x="78" y="64" width="88" height="28" rx="8" fill="#66d4d1"/>
+    <circle cx="52" cy="135" r="21" fill="#14232b" stroke="#ffe3a5" stroke-width="6"/><circle cx="202" cy="125" r="21" fill="#14232b" stroke="#ffe3a5" stroke-width="6"/>
+    <path d="M18 79 L-20 55" stroke="#f7e2a1" stroke-width="8"/><circle cx="-27" cy="51" r="11" fill="#a9ffff" filter="url(#glow)"/>
+    <path d="M116 5 L145 -20 L171 6" fill="none" stroke="#7ff8ed" stroke-width="7" filter="url(#glow)"/>
+  </g>
+  <circle cx="1125" cy="465" r="16" fill="#f7e39b" stroke="#ffffff" stroke-width="3"/><path d="M1125 487v40m-22-19h44m-15 19-18 33m18-33 20 33" stroke="#f7e39b" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="1125" cy="465" r="44" fill="none" stroke="#8ffff0" stroke-width="5"/><path d="M1125 410v-20m-55 75h-20m130 0h20" stroke="#8ffff0" stroke-width="4"/>
+  <text x="870" y="655" fill="#a7d9dc" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="16">优势：战斗、入口、伤员一眼可见</text>
+  <text x="870" y="680" fill="#93c0c5" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="15">风险：过度卡通会削弱救援的重量感</text>
+
+  <rect x="1330" y="160" width="170" height="38" rx="19" fill="#66d4d1"/>
+  <text x="1415" y="186" text-anchor="middle" fill="#10252a" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="17" font-weight="700">已选方向</text>
+  <rect x="60" y="735" width="1480" height="110" rx="18" fill="#202a2d" stroke="#5c8d8c" stroke-width="2"/>
+  <circle cx="105" cy="790" r="24" fill="#66d4d1"/><path d="M94 790l8 8 16-18" fill="none" stroke="#10252a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="150" y="777" fill="#f2e4ae" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">推荐：半写实环境 ＋ 风格化可读性 ＋ 外星能量高亮</text>
+  <text x="150" y="810" fill="#c0cbc7" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="17">让车辆和伤害有重量，让敌人、入口、伤员和共生能力在斜俯视战斗中清楚可见。</text>
+</svg>
